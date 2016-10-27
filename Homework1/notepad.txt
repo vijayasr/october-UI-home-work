@@ -37,8 +37,10 @@ https://www.youtube.com/watch?v=KLEDKgMmbBI
 
 3) branch in git? how to create a branch, checkout a branch? write about branching strategies?
 Branches are the final component of Git version control. 
+A branch in Git is simply a lightweight movable pointer to one of these commits. The default branch name in Git is master. As you initially make commits, you’re given a master branch that points to the last commit you made. Every time you commit, it moves forward automatically.
 
 http://rypress.com/tutorials/git/branches-1
+https://git-scm.com/book/en/v1/Git-Branching-What-a-Branch-Is
 how to create a branch, checkout a branch
 https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches
 In your github fork, first you need to keep your master branch clean, by clean I mean without any changes, like that you can create at any time a branch from your master. Each time, that you want to commit a bug or a feature, you need to create a branch for it, which will be a copy of your master branch.
