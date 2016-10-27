@@ -1,1 +1,18 @@
-repository
+1) Clone, commit, push
+
+Clone Clones a repository into a newly created directory, creates remote-tracking branches for each branch in the cloned 
+repository (visible using git branch -r), and creates and checks out an initial branch that is forked from the cloned repository’s currently active branch.
+
+As a convenience, cloning automatically creates a remote connection called origin pointing back to the original repository. This makes it very easy to interact with a central repository.
+https://git-scm.com/docs/git-clone
+https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository
+https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-clone
+http://stackoverflow.com/questions/651038/how-do-you-clone-a-git-repository-into-a-specific-folder
+
+commit - Record changes to the repository
+https://git-scm.com/docs/git-commit
+http://gitref.org/basic/
+
+git-push - Update remote refs along with associated objects
+https://git-scm.com/docs/git-push
+http://gitref.org/basic/
