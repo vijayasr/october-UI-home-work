@@ -16,3 +16,43 @@ http://gitref.org/basic/
 git-push - Update remote refs along with associated objects
 https://git-scm.com/docs/git-push
 http://gitref.org/basic/
+
+2)Git local repository is the one on which we will make local changes, typically this local repository is on our computer.
+http://stackoverflow.com/questions/13072111/gits-local-repository-and-remote-repository-confusing-concepts
+Remote repositories are versions of your project that are hosted on the Internet or network somewhere
+https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes
+
+5) pull, fetch, statsh?
+
+https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes
+
+The git fetch command only downloads the data to your local repository – it doesn’t automatically merge it with any of your work 
+or modify what you’re currently working on.
+The git pull command to automatically fetch and then merge that remote branch into your current branch. This may be an easier or more comfortable workflow for you; and by default, the git clone command automatically sets up your local
+ master branch to track the remote master branch (or whatever the default branch is called) on the server you cloned from. 
+
+git-stash - Stash the changes in a dirty working directory away
+
+https://www.youtube.com/watch?v=KLEDKgMmbBI
+
+3) branch in git? how to create a branch, checkout a branch? write about branching strategies?
+Branches are the final component of Git version control. 
+
+http://rypress.com/tutorials/git/branches-1
+how to create a branch, checkout a branch
+https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches
+In your github fork, first you need to keep your master branch clean, by clean I mean without any changes, like that you can create at any time a branch from your master. Each time, that you want to commit a bug or a feature, you need to create a branch for it, which will be a copy of your master branch.
+
+When you do a pull request on a branch, you can continue to work on another branch and make another pull request on this other branch.
+
+Before creating a new branch, pull the changes from upstream. Your master needs to be up to date.
+
+write about branching strategies?
+Decentralized but centralized 
+The repository setup that we use and that works well with this branching model, is that with a central “truth” repo. Note that this repo is only considered to be the central one (since Git is a DVCS, there is no such thing as a central repo at a technical level). 
+We will refer to this repo as origin, since this name is familiar with the GIT users
+http://nvie.com/posts/a-successful-git-branching-model/
+
+4) merge conflicts? how to create them? how to resolve them?
+If this happens You need to modify or stash the files it lists and then try to do a git pull again.
+http://genomewiki.ucsc.edu/index.php/Resolving_merge_conflicts_in_Git
