@@ -1,0 +1,39 @@
+1) how to create a html document?
+
+An html document have two distinct parts the head and body. The head have the information about the document that is not displayed on the screen
+The body contains every thing else that is displayed
+The basic structure of HTML page is 
+
+<html>
+<head>
+** [header info used by some web servers, not displayed]**
+</head>
+<body>
+
+**[all the html to display]**
+</body>
+</html>
+Enclose all HTML work within an <html>....</html> tag. 
+To create a new HTML document, open a new document in Notepad (Notepad should be located under programs/accessories). You will type all your HTML code into this document. 
+To start, type the following HTML code into Notepad.
+When you are done typing save your document. When you save an HTML document in Notepad, you must specify that it should be saved as an HTML document. To do this, choose Save As from the file menu. Type in the file name followed by .html. 
+You must also change the Save as Type to All Files or Notepad will automatically save your document as a text document.
+Next open an Internet browser (ex. Netscape or Internet Explorer). Choose Open or Open Page from the file menu. Locate and select your HTML document.
+	1)http://www.lsu.edu/OCS/html-tutorials/writingHTML/tut/tut1.html
+	2)http://www.liutilities.com/how-to/create-an-html-document/
+	3)http://homepage.cs.uri.edu/book/html_create/html_create.htm
+	4)http://w3.marietta.edu/~mcshaffd/vert/howhtml.html
+	5)http://csis.pace.edu/~wolf/HTML/htmlnotepad.htm
+
+2) what is element?
+An HTML consists of start tag and end tag, <tagname>content goes here</tagname>
+The HTML element is everything from the start tag to the end tag
+http://www.w3schools.com/html/html_elements.asp
+https://en.wikipedia.org/wiki/HTML_element
+
+3)what is an attribute?
+Attribute : tags can also have the attributes, which are extra bits of information.Attributes appear inside the opening tag and their values sit inside quotation marks. 
+They look something like <tag attribute="value">Margarine</tag>
+http://htmldog.com/guides/html/beginner/tags/
+http://www.w3schools.com/html/html_attributes.asp
+https://www.tutorialspoint.com/html/html_attributes.htm
