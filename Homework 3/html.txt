@@ -37,3 +37,48 @@ They look something like <tag attribute="value">Margarine</tag>
 http://htmldog.com/guides/html/beginner/tags/
 http://www.w3schools.com/html/html_attributes.asp
 https://www.tutorialspoint.com/html/html_attributes.htm
+
+4)Parent and child element?
+For eg:
+<!DOCTYPE HTML>
+<html>
+<head>
+<title> web designing Course</title>
+   <link rel="stylesheet"type="text/css"href="styles.css"media="screen"> 
+    </head>
+<body>
+<header>
+<hgroup>
+<h1> WEB course</h1>
+<h3>Learn Html 5 and css</h3>
+</hgroup>
+</header>
+
+In this the <header> tag is the parent for the body and hgroup tag is the child tag.head tag is the parent of the html , title is the child element
+https://www.youtube.com/watch?v=Pf8xmAZYZC4
+https://lorelle.wordpress.com/2015/04/19/wordpress-school-html-and-css-parent-child-relationship/
+5)versions of html 4, 5 and release dates
+HTML 4.0, published as a recommendation in late 1997 and finally approved as HTML 4.01.,The html 4 version released in 2004
+HTML 5 versions are html5.0 and 5.1,5.2
+	2012	2013	2014	2015	2016
+HTML 5.0	Candidate Rec	Call for Review	Recommendation		
+HTML 5.1	1st Working Draft		Last Call	Candidate Rec	Recommendation
+HTML 5.2[30]				1st Working Draft	
+
+https://en.wikipedia.org/wiki/HTML5
+https://blog.rackspace.com/internet-history-html-evolution
+6)Differences between html 4 and html 5?
+I) html 5 is the standardized version not like html4
+II)simplified syntax: <doctype!html>
+III)the new <canvas> element
+The header and footer elements
+New <section> and <article> elements
+New <menu> and <figure> elements, new forms
+No more frame, center, big
+https://churchm.ag/differences-between-html4-html5/
+http://www.go4expert.com/articles/html4-vs-html5-comparison-t30141/
+7)why do we need to use html?
+HTML, or Hypertext Markup Language, is used to create web pages. Site authors use HTML to format text as titles and headings, to arrange graphics on a webpage, to link to different pages within a website, and to link to different websites.
+www.draac.com/WhatHTMLUsedFor.html
+http://www.answers.com/Q/Why_HTML_is_used#slide=6
+https://en.wikipedia.org/wiki/HTML
